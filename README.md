@@ -56,7 +56,7 @@
 }
 ```
 
-### 4. Install CSS library
+### 4. Install CSS dependency
 ```npm install materialize-css```
 
 ### 5. Run dev script
@@ -67,3 +67,6 @@
 ```index.css```<br/>
 ```logo.svg```<br/>
 ```serviceWorker.js```
+
+### 7. Install moment dependencies
+```npm install moment react-moment```
