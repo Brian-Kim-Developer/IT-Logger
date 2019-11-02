@@ -70,3 +70,11 @@
 
 ### 7. Install moment dependencies
 ```npm install moment react-moment```
+
+### 8. Install Redux dependencies
+```npm install redux react-redux redux-thunk redux-devtools-extension```<br/><br/>
+```redux``` is a state management library, which has nothing to do with react itself.<br/>
+```react-redux``` allows us to connect the two together and they work really well together.<br/>
+```redux-thunk``` is a piece of middleware and allows us to make asynchronous functions inside of our actions so that we can for instance wait for a response to come back and then dispatch to our reducer.<br/>
+```redux-devtools-extension``` is for Chrome.
+
